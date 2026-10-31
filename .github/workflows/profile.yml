@@ -24,6 +24,22 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Pin - ApiWorkbench
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=ApiWorkbench&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/apiworkbench.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Mock Studio
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=Mock_studio&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/mockstudio.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Pin - SpaceSweep
         uses: stats-organization/github-readme-stats-action@v2
         with:
