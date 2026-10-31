@@ -1,0 +1,98 @@
+name: Org profile cards
+
+on:
+  schedule:
+    - cron: "45 0 * * *" # daily, 06:15 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile.yml"
+      - "scripts/profile_stats.py"
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Numbers and languages
+        run: python3 scripts/profile_stats.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - SpaceSweep
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=SpaceSweep&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/spacesweep.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - CloudDrop
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=CloudDrop&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/clouddrop.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - CrossShell
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=CrossShell&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/crossshell.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - DiskRescue
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=DiskRescue&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/diskrescue.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Kilonova
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=kilonova&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/kilonova.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - SecureShellGo
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=SecureShellGo&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/secureshellgo.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - BranchPilot
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=BranchPilot&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/branchpilot.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin - Gearwise
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Dhiva-Labs&repo=gearwise&theme=tokyonight&hide_border=true&description_lines_count=2
+          path: profile/pins/gearwise.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh org profile cards"
+          git push
