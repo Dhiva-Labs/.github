@@ -3,55 +3,55 @@
 <style>.h{font:600 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif;fill:#70a5fd}.s{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#a9b1d6}.n{font:600 13px 'Segoe UI',Ubuntu,Sans-Serif;fill:#c0caf5}.p{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#7aa2f7}</style>
 <rect x="0.5" y="0.5" width="799" height="181" rx="6" fill="#1a1b27"/>
 <text x="25" y="38" class="h">Languages across Dhiva Labs</text>
-<text x="775" y="38" class="s" text-anchor="end">47 public repos · 38.9 MB of code</text>
+<text x="775" y="38" class="s" text-anchor="end">47 public repos · 40.0 MB of code</text>
 <clipPath id="bar"><rect x="25" y="56" width="750" height="12" rx="6"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="25.00" y="56" width="342.30" height="12" fill="#00B4AB"/>
-<rect x="367.30" y="56" width="213.16" height="12" fill="#dea584"/>
-<rect x="580.46" y="56" width="55.18" height="12" fill="#555555"/>
-<rect x="635.64" y="56" width="35.87" height="12" fill="#3178c6"/>
-<rect x="671.51" y="56" width="25.12" height="12" fill="#f1e05a"/>
-<rect x="696.63" y="56" width="19.64" height="12" fill="#3572A5"/>
-<rect x="716.26" y="56" width="14.83" height="12" fill="#f34b7d"/>
-<rect x="731.09" y="56" width="12.20" height="12" fill="#e34c26"/>
-<rect x="743.30" y="56" width="10.43" height="12" fill="#00ADD8"/>
-<rect x="753.72" y="56" width="7.74" height="12" fill="#DA3434"/>
-<rect x="761.46" y="56" width="4.73" height="12" fill="#89e051"/>
-<rect x="766.19" y="56" width="8.81" height="12" fill="#565f89"/>
+<rect x="25.00" y="56" width="335.72" height="12" fill="#00B4AB"/>
+<rect x="360.72" y="56" width="207.29" height="12" fill="#dea584"/>
+<rect x="568.01" y="56" width="53.66" height="12" fill="#555555"/>
+<rect x="621.67" y="56" width="34.88" height="12" fill="#3178c6"/>
+<rect x="656.55" y="56" width="25.19" height="12" fill="#f1e05a"/>
+<rect x="681.74" y="56" width="20.63" height="12" fill="#89e051"/>
+<rect x="702.37" y="56" width="19.78" height="12" fill="#3572A5"/>
+<rect x="722.15" y="56" width="14.53" height="12" fill="#f34b7d"/>
+<rect x="736.68" y="56" width="11.93" height="12" fill="#e34c26"/>
+<rect x="748.61" y="56" width="10.14" height="12" fill="#00ADD8"/>
+<rect x="758.75" y="56" width="7.53" height="12" fill="#DA3434"/>
+<rect x="766.27" y="56" width="8.73" height="12" fill="#565f89"/>
 </g>
 <circle cx="31.0" cy="94" r="5" fill="#00B4AB"/>
 <text x="43.0" y="98" class="n">Dart</text>
-<text x="198.5" y="98" class="p" text-anchor="end">45.6%</text>
+<text x="198.5" y="98" class="p" text-anchor="end">44.8%</text>
 <circle cx="218.5" cy="94" r="5" fill="#dea584"/>
 <text x="230.5" y="98" class="n">Rust</text>
-<text x="386.0" y="98" class="p" text-anchor="end">28.4%</text>
+<text x="386.0" y="98" class="p" text-anchor="end">27.6%</text>
 <circle cx="406.0" cy="94" r="5" fill="#555555"/>
 <text x="418.0" y="98" class="n">C</text>
-<text x="573.5" y="98" class="p" text-anchor="end">7.4%</text>
+<text x="573.5" y="98" class="p" text-anchor="end">7.2%</text>
 <circle cx="593.5" cy="94" r="5" fill="#3178c6"/>
 <text x="605.5" y="98" class="n">TypeScript</text>
-<text x="761.0" y="98" class="p" text-anchor="end">4.8%</text>
+<text x="761.0" y="98" class="p" text-anchor="end">4.7%</text>
 <circle cx="31.0" cy="120" r="5" fill="#f1e05a"/>
 <text x="43.0" y="124" class="n">JavaScript</text>
-<text x="198.5" y="124" class="p" text-anchor="end">3.3%</text>
-<circle cx="218.5" cy="120" r="5" fill="#3572A5"/>
-<text x="230.5" y="124" class="n">Python</text>
-<text x="386.0" y="124" class="p" text-anchor="end">2.6%</text>
-<circle cx="406.0" cy="120" r="5" fill="#f34b7d"/>
-<text x="418.0" y="124" class="n">C++</text>
-<text x="573.5" y="124" class="p" text-anchor="end">2.0%</text>
-<circle cx="593.5" cy="120" r="5" fill="#e34c26"/>
-<text x="605.5" y="124" class="n">HTML</text>
-<text x="761.0" y="124" class="p" text-anchor="end">1.6%</text>
-<circle cx="31.0" cy="146" r="5" fill="#00ADD8"/>
-<text x="43.0" y="150" class="n">Go</text>
-<text x="198.5" y="150" class="p" text-anchor="end">1.4%</text>
-<circle cx="218.5" cy="146" r="5" fill="#DA3434"/>
-<text x="230.5" y="150" class="n">CMake</text>
-<text x="386.0" y="150" class="p" text-anchor="end">1.0%</text>
-<circle cx="406.0" cy="146" r="5" fill="#89e051"/>
-<text x="418.0" y="150" class="n">Shell</text>
-<text x="573.5" y="150" class="p" text-anchor="end">0.6%</text>
+<text x="198.5" y="124" class="p" text-anchor="end">3.4%</text>
+<circle cx="218.5" cy="120" r="5" fill="#89e051"/>
+<text x="230.5" y="124" class="n">Shell</text>
+<text x="386.0" y="124" class="p" text-anchor="end">2.8%</text>
+<circle cx="406.0" cy="120" r="5" fill="#3572A5"/>
+<text x="418.0" y="124" class="n">Python</text>
+<text x="573.5" y="124" class="p" text-anchor="end">2.6%</text>
+<circle cx="593.5" cy="120" r="5" fill="#f34b7d"/>
+<text x="605.5" y="124" class="n">C++</text>
+<text x="761.0" y="124" class="p" text-anchor="end">1.9%</text>
+<circle cx="31.0" cy="146" r="5" fill="#e34c26"/>
+<text x="43.0" y="150" class="n">HTML</text>
+<text x="198.5" y="150" class="p" text-anchor="end">1.6%</text>
+<circle cx="218.5" cy="146" r="5" fill="#00ADD8"/>
+<text x="230.5" y="150" class="n">Go</text>
+<text x="386.0" y="150" class="p" text-anchor="end">1.4%</text>
+<circle cx="406.0" cy="146" r="5" fill="#DA3434"/>
+<text x="418.0" y="150" class="n">CMake</text>
+<text x="573.5" y="150" class="p" text-anchor="end">1.0%</text>
 <circle cx="593.5" cy="146" r="5" fill="#565f89"/>
 <text x="605.5" y="150" class="n">Other</text>
 <text x="761.0" y="150" class="p" text-anchor="end">1.2%</text>
