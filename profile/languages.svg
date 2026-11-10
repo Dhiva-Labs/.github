@@ -6,13 +6,13 @@
 <text x="775" y="38" class="s" text-anchor="end">49 public repos · 40.3 MB of code</text>
 <clipPath id="bar"><rect x="25" y="56" width="750" height="12" rx="6"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="25.00" y="56" width="333.88" height="12" fill="#00B4AB"/>
-<rect x="358.88" y="56" width="206.39" height="12" fill="#dea584"/>
-<rect x="565.27" y="56" width="53.28" height="12" fill="#555555"/>
-<rect x="618.56" y="56" width="35.21" height="12" fill="#3178c6"/>
-<rect x="653.77" y="56" width="28.05" height="12" fill="#f1e05a"/>
-<rect x="681.82" y="56" width="20.52" height="12" fill="#89e051"/>
-<rect x="702.34" y="56" width="19.73" height="12" fill="#3572A5"/>
+<rect x="25.00" y="56" width="333.87" height="12" fill="#00B4AB"/>
+<rect x="358.87" y="56" width="206.39" height="12" fill="#dea584"/>
+<rect x="565.26" y="56" width="53.28" height="12" fill="#555555"/>
+<rect x="618.54" y="56" width="35.21" height="12" fill="#3178c6"/>
+<rect x="653.75" y="56" width="28.05" height="12" fill="#f1e05a"/>
+<rect x="681.80" y="56" width="20.53" height="12" fill="#89e051"/>
+<rect x="702.33" y="56" width="19.74" height="12" fill="#3572A5"/>
 <rect x="722.06" y="56" width="14.43" height="12" fill="#f34b7d"/>
 <rect x="736.49" y="56" width="12.02" height="12" fill="#e34c26"/>
 <rect x="748.52" y="56" width="10.07" height="12" fill="#00ADD8"/>
