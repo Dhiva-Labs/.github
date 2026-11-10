@@ -7,6 +7,8 @@ import datetime
 import html
 import json
 import os
+import time
+import urllib.error
 import urllib.request
 
 ORG = "Dhiva-Labs"
@@ -16,7 +18,7 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "profile")
 REPOS_QUERY = """
 query($org: String!, $cursor: String) {
   organization(login: $org) {
-    repositories(first: 50, after: $cursor, privacy: PUBLIC, isFork: false) {
+    repositories(first: 20, after: $cursor, privacy: PUBLIC, isFork: false) {
       pageInfo { hasNextPage endCursor }
       nodes {
         stargazerCount
@@ -44,8 +46,22 @@ def gql(query, **variables):
             "Content-Type": "application/json",
         },
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        body = json.load(resp)
+    # GitHub stops a GraphQL query after 10 seconds and answers 502. A page
+    # of 50 repositories with their releases took longer than that, so
+    # REPOS_QUERY asks for 20 at a time; retry the occasional 5xx that is
+    # left with a backoff.
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                body = json.load(resp)
+            break
+        except urllib.error.HTTPError as err:
+            if err.code < 500 or attempt == 3:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 3:
+                raise
+        time.sleep(5 * 3**attempt)
     if body.get("errors"):
         raise SystemExit(json.dumps(body["errors"], indent=2))
     return body["data"]
