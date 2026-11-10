@@ -3,21 +3,21 @@
 <style>.h{font:600 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif;fill:#70a5fd}.s{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#a9b1d6}.n{font:600 13px 'Segoe UI',Ubuntu,Sans-Serif;fill:#c0caf5}.p{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#7aa2f7}</style>
 <rect x="0.5" y="0.5" width="799" height="181" rx="6" fill="#1a1b27"/>
 <text x="25" y="38" class="h">Languages across Dhiva Labs</text>
-<text x="775" y="38" class="s" text-anchor="end">48 public repos · 40.3 MB of code</text>
+<text x="775" y="38" class="s" text-anchor="end">49 public repos · 40.3 MB of code</text>
 <clipPath id="bar"><rect x="25" y="56" width="750" height="12" rx="6"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="25.00" y="56" width="333.65" height="12" fill="#00B4AB"/>
-<rect x="358.65" y="56" width="206.57" height="12" fill="#dea584"/>
-<rect x="565.22" y="56" width="53.33" height="12" fill="#555555"/>
-<rect x="618.55" y="56" width="35.24" height="12" fill="#3178c6"/>
-<rect x="653.79" y="56" width="28.00" height="12" fill="#f1e05a"/>
-<rect x="681.79" y="56" width="20.54" height="12" fill="#89e051"/>
-<rect x="702.33" y="56" width="19.68" height="12" fill="#3572A5"/>
-<rect x="722.01" y="56" width="14.44" height="12" fill="#f34b7d"/>
-<rect x="736.46" y="56" width="12.04" height="12" fill="#e34c26"/>
-<rect x="748.49" y="56" width="10.08" height="12" fill="#00ADD8"/>
-<rect x="758.57" y="56" width="7.48" height="12" fill="#DA3434"/>
-<rect x="766.05" y="56" width="8.95" height="12" fill="#565f89"/>
+<rect x="25.00" y="56" width="333.88" height="12" fill="#00B4AB"/>
+<rect x="358.88" y="56" width="206.39" height="12" fill="#dea584"/>
+<rect x="565.27" y="56" width="53.28" height="12" fill="#555555"/>
+<rect x="618.56" y="56" width="35.21" height="12" fill="#3178c6"/>
+<rect x="653.77" y="56" width="28.05" height="12" fill="#f1e05a"/>
+<rect x="681.82" y="56" width="20.52" height="12" fill="#89e051"/>
+<rect x="702.34" y="56" width="19.73" height="12" fill="#3572A5"/>
+<rect x="722.06" y="56" width="14.43" height="12" fill="#f34b7d"/>
+<rect x="736.49" y="56" width="12.02" height="12" fill="#e34c26"/>
+<rect x="748.52" y="56" width="10.07" height="12" fill="#00ADD8"/>
+<rect x="758.59" y="56" width="7.47" height="12" fill="#DA3434"/>
+<rect x="766.06" y="56" width="8.94" height="12" fill="#565f89"/>
 </g>
 <circle cx="31.0" cy="94" r="5" fill="#00B4AB"/>
 <text x="43.0" y="98" class="n">Dart</text>
