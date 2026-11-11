@@ -185,6 +185,7 @@ Every app has a step-by-step guide at **[learn.dhivalabs.com](https://learn.dhiv
 
 | Project | What it does | Runs on | Latest | Get it |
 | --- | --- | --- | --- | --- |
+| [**Circuit Lab**](https://github.com/dhivadhiva/circuit_lab)<br/><sub>[Guide](https://learn.dhivalabs.com/apps/circuit-lab/)</sub> | Learn electronics on a simulated bench: 88 Arduino, ESP32 and Pico projects, a circuit designer and a code editor | Browser · Linux · Windows | ![](https://img.shields.io/github/v/release/dhivadhiva/circuit_lab?style=flat-square&label=&color=1E3A8A) | [![](https://img.shields.io/badge/Open-0F172A?style=flat-square&logo=googlechrome&logoColor=white)](https://circuitlab.dhivalabs.com/) [![](https://img.shields.io/badge/Release-181717?style=flat-square&logo=github)](https://github.com/dhivadhiva/circuit_lab/releases/latest) |
 | [**Dhiva Tools**](https://tools.dhivalabs.com/)<br/><sub>[Guide](https://learn.dhivalabs.com/apps/dhiva-tools/)</sub> | Free image, PDF, developer and SEO tools; files never leave your browser | Browser | ![](https://img.shields.io/website?url=https%3A%2F%2Ftools.dhivalabs.com&style=flat-square&label=&up_message=live&up_color=1E3A8A) | [![](https://img.shields.io/badge/Open-0F172A?style=flat-square&logo=googlechrome&logoColor=white)](https://tools.dhivalabs.com/) |
 | [**DL Image Tools**](https://github.com/Dhiva-Labs/dl-image-tools)<br/><sub>[Guide](https://learn.dhivalabs.com/apps/dl-image-tools/)</sub> | Compress, resize, convert and crop images in Chrome with no uploads | Chrome | ![](https://img.shields.io/github/v/release/Dhiva-Labs/dl-image-tools?style=flat-square&label=&color=1E3A8A) | [![](https://img.shields.io/badge/Release-181717?style=flat-square&logo=github)](https://github.com/Dhiva-Labs/dl-image-tools/releases/latest) |
 | [**Game Boy**](https://github.com/Dhiva-Labs/gameboy)<br/><sub>[Guide](https://learn.dhivalabs.com/apps/gameboy/)</sub> | DMG emulator: blargg suites green, dmg-acid2 pixel-perfect | C++20 / SDL2 | ![](https://img.shields.io/github/last-commit/Dhiva-Labs/gameboy?style=flat-square&label=updated&color=334155) | [![](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/Dhiva-Labs/gameboy) |
@@ -195,7 +196,17 @@ Every app has a step-by-step guide at **[learn.dhivalabs.com](https://learn.dhiv
 <!-- ===== UPSTREAM ===== -->
 ## 🌍 Upstream
 
-We send fixes back to the projects our apps are built on, most of all the Monero light-wallet server [**monero-lws**](https://github.com/vtnerd/monero-lws/pulls?q=is%3Apr+author%3Adhivadhiva) and the [**Monero**](https://github.com/monero-project/monero/pulls?q=is%3Apr+author%3Adhivadhiva) wallet.
+We send fixes back to the open-source projects our apps are built on. Merged so far: **8** in Monero's light-wallet server [**monero-lws**](https://github.com/vtnerd/monero-lws/pulls?q=is%3Apr+author%3Adhivadhiva) and **2** in Google's [**safe-bindings**](https://github.com/google/safe-bindings/pulls?q=is%3Apr+author%3Adhivadhiva).
+
+| Organization | Projects |
+| --- | --- |
+| <img src="https://github.com/monero-project.png?size=40" width="20" height="20" alt="" /> **Monero** | [monero-lws](https://github.com/vtnerd/monero-lws/pulls?q=is%3Apr+author%3Adhivadhiva) · [monero](https://github.com/monero-project/monero/pulls?q=is%3Apr+author%3Adhivadhiva) · [FCMP++ migration](https://github.com/seraphis-migration/monero/pulls?q=is%3Apr+author%3Adhivadhiva) |
+| <img src="https://github.com/google.png?size=40" width="20" height="20" alt="" /> **Google** | [safe-bindings](https://github.com/google/safe-bindings/pulls?q=is%3Apr+author%3Adhivadhiva) · [protobuf.dart](https://github.com/google/protobuf.dart/pulls?q=is%3Apr+author%3Adhivadhiva) |
+| <img src="https://github.com/microsoft.png?size=40" width="20" height="20" alt="" /> **Microsoft** | [CMake Tools for VS Code](https://github.com/microsoft/vscode-cmake-tools/pulls?q=is%3Apr+author%3Adhivadhiva) |
+| <img src="https://github.com/discord.png?size=40" width="20" height="20" alt="" /> **Discord** | [Embedded App SDK](https://github.com/discord/embedded-app-sdk/pulls?q=is%3Apr+author%3Adhivadhiva) |
+| <img src="https://github.com/coinbase.png?size=40" width="20" height="20" alt="" /> **Coinbase** · <img src="https://github.com/base.png?size=40" width="20" height="20" alt="" /> **Base** | [Coinbase Wallet SDK](https://github.com/coinbase/coinbase-wallet-sdk/pulls?q=is%3Apr+author%3Adhivadhiva) · [Base Account SDK](https://github.com/base/account-sdk/pulls?q=is%3Apr+author%3Adhivadhiva) |
+
+The full, daily-updated list with each pull request's status is on [**@dhivadhiva**'s profile](https://github.com/dhivadhiva#-upstream-contributions).
 
 <!-- ===== CONTRIBUTING ===== -->
 ## 🤝 Contributing
