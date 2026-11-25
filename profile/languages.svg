@@ -6,25 +6,25 @@
 <text x="775" y="38" class="s" text-anchor="end">51 public repos · 43.9 MB of code</text>
 <clipPath id="bar"><rect x="25" y="56" width="750" height="12" rx="6"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="25.00" y="56" width="350.73" height="12" fill="#00B4AB"/>
-<rect x="375.73" y="56" width="197.99" height="12" fill="#dea584"/>
-<rect x="573.72" y="56" width="49.02" height="12" fill="#555555"/>
-<rect x="622.74" y="56" width="32.36" height="12" fill="#3178c6"/>
-<rect x="655.10" y="56" width="26.21" height="12" fill="#f1e05a"/>
-<rect x="681.31" y="56" width="20.36" height="12" fill="#3572A5"/>
-<rect x="701.67" y="56" width="19.50" height="12" fill="#89e051"/>
-<rect x="721.17" y="56" width="14.08" height="12" fill="#f34b7d"/>
-<rect x="735.25" y="56" width="11.44" height="12" fill="#00ADD8"/>
-<rect x="746.68" y="56" width="11.05" height="12" fill="#e34c26"/>
-<rect x="757.73" y="56" width="6.96" height="12" fill="#DA3434"/>
-<rect x="764.70" y="56" width="10.30" height="12" fill="#565f89"/>
+<rect x="25.00" y="56" width="350.43" height="12" fill="#00B4AB"/>
+<rect x="375.43" y="56" width="198.40" height="12" fill="#dea584"/>
+<rect x="573.83" y="56" width="48.98" height="12" fill="#555555"/>
+<rect x="622.81" y="56" width="32.33" height="12" fill="#3178c6"/>
+<rect x="655.14" y="56" width="26.19" height="12" fill="#f1e05a"/>
+<rect x="681.33" y="56" width="20.34" height="12" fill="#3572A5"/>
+<rect x="701.67" y="56" width="19.49" height="12" fill="#89e051"/>
+<rect x="721.16" y="56" width="14.07" height="12" fill="#f34b7d"/>
+<rect x="735.22" y="56" width="11.43" height="12" fill="#00ADD8"/>
+<rect x="746.65" y="56" width="11.04" height="12" fill="#e34c26"/>
+<rect x="757.69" y="56" width="6.96" height="12" fill="#DA3434"/>
+<rect x="764.65" y="56" width="10.35" height="12" fill="#565f89"/>
 </g>
 <circle cx="31.0" cy="94" r="5" fill="#00B4AB"/>
 <text x="43.0" y="98" class="n">Dart</text>
-<text x="198.5" y="98" class="p" text-anchor="end">46.8%</text>
+<text x="198.5" y="98" class="p" text-anchor="end">46.7%</text>
 <circle cx="218.5" cy="94" r="5" fill="#dea584"/>
 <text x="230.5" y="98" class="n">Rust</text>
-<text x="386.0" y="98" class="p" text-anchor="end">26.4%</text>
+<text x="386.0" y="98" class="p" text-anchor="end">26.5%</text>
 <circle cx="406.0" cy="94" r="5" fill="#555555"/>
 <text x="418.0" y="98" class="n">C</text>
 <text x="573.5" y="98" class="p" text-anchor="end">6.5%</text>
